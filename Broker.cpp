@@ -1,14 +1,16 @@
-#include "Broker.h"
+#include "Broker.hpp"
 
-void addSubscriber(Subscriber* subscriber, std::string topic)
+Broker::Broker()
 {
 
 }
-void registerToPublisher(Publisher* publisher)
+void Broker::addSubscriber(ISubscriber* subscriber, std::string topic)
 {
-
 }
-void onPublish(std::string topic, int newData)
+void Broker::registerToPublisher(IPublisher* publisher)
 {
-
 }
+void Broker::onPublish(std::string topic, int newData)
+{
+}
+

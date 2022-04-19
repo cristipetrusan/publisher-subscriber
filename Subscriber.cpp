@@ -1,5 +1,11 @@
-#include "Subscriber.h"
-void Subscriber::subscribeToBroker(Broker* broker, std::string topic)
+#include "Subscriber.hpp"
+
+Subscriber::Subscriber()
+{
+
+}
+
+void Subscriber::subscribeToBroker(IBroker* broker, std::string topic)
 {
 
 }

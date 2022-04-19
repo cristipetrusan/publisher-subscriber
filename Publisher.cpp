@@ -1,6 +1,10 @@
-#include "Publisher.h"
+#include "Publisher.hpp"
 
-void Publisher::registerBroker(Broker* broker)
+Publisher::Publisher()
+{
+
+}
+void Publisher::registerBroker(IBroker* broker)
 {
 
 }
